@@ -46,18 +46,26 @@ jobs:
         pip install -e .
         pip install yt-dlp
         
-    - name: Build APK
+    - name: Build APK OPTIMIZED
       run: |
-        echo "🔨 Compilando APK con GitHub Actions..."
+        echo "🔨 Compilando APK OPTIMIZADO..."
         flet build apk \
-          --bundle-id "com.velqi.github" \
-          --product "Velqi GitHub" \
-          --description "Compilado en la nube" \
+          --bundle-id "com.velqi.lite" \
+          --product "Velqi Lite" \
+          --description "Music downloader - Lite" \
           --build-version "1.0.0" \
           --android-permissions "android.permission.INTERNET=true" \
           --android-permissions "android.permission.WRITE_EXTERNAL_STORAGE=true" \
-          --android-permissions "android.permission.READ_EXTERNAL_STORAGE=true" \
+          --split-per-abi \
+          --cleanup-app \
+          --cleanup-packages \
+          --compile-app \
+          --compile-packages \
+          --exclude "*.pyc" \
+          --exclude "__pycache__" \
+          --exclude "*.log" \
           --clear-cache \
+          --yes \
           --verbose
         
     - name: Upload APK artifact

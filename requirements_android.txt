@@ -1,0 +1,4 @@
+flet==0.85.1
+yt-dlp==2024.11.11
+requests==2.31.0
+# NO pygame, NO imageio-ffmpeg (pesan mucho)
