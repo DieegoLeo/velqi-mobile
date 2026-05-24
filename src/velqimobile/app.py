@@ -64,10 +64,11 @@ class VelqiApp:
             self._log("Android: ffmpeg no disponible desde Python")
             return None
         try:
-            from imageio_ffmpeg import get_ffmpeg_exe
-            path = get_ffmpeg_exe()
-            self._log(f"FFmpeg encontrado: {path}")
-            return path
+            # Try to use yt-dlp's built-in ffmpeg first
+            import yt_dlp
+            # yt-dlp will use system ffmpeg if available
+            self._log("FFmpeg: usando yt-dlp con ffmpeg del sistema")
+            return "ffmpeg"  # yt-dlp will find it in PATH
         except Exception as e:
             self._log(f"FFmpeg no disponible: {e}")
             return None
@@ -799,12 +800,8 @@ class VelqiApp:
         }
         if self.cookies_file:
             ydl_opts["cookiefile"] = self.cookies_file
-        if self.ffmpeg_available:
-            ydl_opts["ffmpeg_location"] = self.ffmpeg_available
-            ydl_opts["postprocessors"] = [{
-                "key": "FFmpegExtractAudio",
-                "preferredcodec": "mp3",
-            }]
+        # No ffmpeg postprocessing - keep M4A format (lighter)
+        # M4A is already an audio format, no conversion needed
         try:
             loop = asyncio.get_event_loop()
             await loop.run_in_executor(None, self._run_ydl_download_with_progress, video_url, ydl_opts)
@@ -1421,12 +1418,8 @@ class VelqiApp:
             }
             if self.cookies_file:
                 ydl_opts["cookiefile"] = self.cookies_file
-            if self.ffmpeg_available:
-                ydl_opts["ffmpeg_location"] = self.ffmpeg_available
-                ydl_opts["postprocessors"] = [{
-                    "key": "FFmpegExtractAudio",
-                    "preferredcodec": "mp3",
-                }]
+            # No ffmpeg postprocessing - keep M4A format (lighter)
+            # M4A is already an audio format, no conversion needed
             else:
                 self._log("Sin ffmpeg - el audio puede no reproducirse")
 

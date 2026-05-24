@@ -1,0 +1,6 @@
+# SOLO LO ESENCIAL PARA ANDROID
+flet>=0.25.0
+yt-dlp>=2024.11.11
+# yt-dlp ya incluye requests, no necesitamos instalarlo aparte
+# NO pygame (solo desktop)
+# NO imageio-ffmpeg (yt-dlp lo maneja internamente)

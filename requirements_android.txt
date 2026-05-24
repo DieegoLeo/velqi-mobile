@@ -1,4 +1,7 @@
-flet==0.85.1
-yt-dlp==2024.11.11
-requests==2.31.0
-# NO pygame, NO imageio-ffmpeg (pesan mucho)
+# SOLO LO ESENCIAL PARA ANDROID - APK OPTIMIZADO
+flet>=0.25.0
+yt-dlp>=2024.11.11
+# yt-dlp ya incluye requests internamente
+# NO pygame (solo desktop)
+# NO imageio-ffmpeg (pesa mucho)
+# NO requests (ya incluido en yt-dlp)

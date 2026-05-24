@@ -19,4 +19,6 @@ cleanup-app = true
 cleanup-packages = true
 compile-app = true
 compile-packages = true
-exclude = ["*.pyc", "__pycache__", "*.log", "tests/*", "venv/*"]
+optimize-size = true
+strip-debug = true
+remove-unused = true

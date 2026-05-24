@@ -44,11 +44,16 @@ jobs:
     - name: Install project dependencies
       run: |
         pip install -e .
-        pip install yt-dlp
+        # Solo instalar lo esencial desde requirements_android.txt
+        pip install -r requirements_android.txt
         
     - name: Build APK OPTIMIZED
       run: |
         echo "🔨 Compilando APK OPTIMIZADO (solo flet + yt-dlp)..."
+        echo "📦 Dependencias mínimas: flet, yt-dlp"
+        echo "🎯 Formato: M4A (sin conversión ffmpeg)"
+        echo "📱 Target: ~50-80MB APK"
+        
         flet build apk \
           --bundle-id "com.velqi.app" \
           --product "Velqi Music" \
@@ -63,6 +68,12 @@ jobs:
           --compile-app \
           --compile-packages \
           --clear-cache \
+          --no-ffmpeg \
+          --no-pygame \
+          --no-imageio \
+          --optimize-size \
+          --strip-debug \
+          --remove-unused \
           --yes \
           --verbose
         
