@@ -1,0 +1,20 @@
+[project]
+name = "velqimobile"
+version = "1.0.0"
+description = "Velqi Mobile - Music search and player"
+requires-python = ">=3.8"
+dependencies = [
+    "flet>=0.25.0",
+    "yt-dlp",
+]
+
+[project.optional-dependencies]
+desktop = [
+    "pygame",
+    "imageio-ffmpeg",
+]
+
+[tool.flet]
+project = "velqimobile"
+description = "Velqi Mobile - Music search and player"
+product = "Velqi Mobile"

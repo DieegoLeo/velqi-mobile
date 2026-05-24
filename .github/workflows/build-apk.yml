@@ -1,0 +1,88 @@
+name: Build Android APK
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+  workflow_dispatch:  # Permite ejecución manual
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+    
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+    
+    - name: Install system dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y \
+          git \
+          wget \
+          unzip \
+          openjdk-17-jdk \
+          cmake \
+          ninja-build \
+          pkg-config \
+          libgtk-3-dev \
+          libsecret-1-dev \
+          libjsoncpp-dev \
+          librhash-dev
+    
+    - name: Install Flet CLI
+      run: |
+        pip install --upgrade pip
+        pip install flet
+        
+    - name: Install project dependencies
+      run: |
+        pip install -e .
+        pip install yt-dlp
+        
+    - name: Build APK
+      run: |
+        echo "🔨 Compilando APK con GitHub Actions..."
+        flet build apk \
+          --bundle-id "com.velqi.github" \
+          --product "Velqi GitHub" \
+          --description "Compilado en la nube" \
+          --build-version "1.0.0" \
+          --android-permissions "android.permission.INTERNET=true" \
+          --android-permissions "android.permission.WRITE_EXTERNAL_STORAGE=true" \
+          --android-permissions "android.permission.READ_EXTERNAL_STORAGE=true" \
+          --clear-cache \
+          --verbose
+        
+    - name: Upload APK artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: velqi-apk
+        path: build/apk/*.apk
+        retention-days: 7
+        
+    - name: Create release with APK
+      if: github.event_name == 'workflow_dispatch' || github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'
+      uses: softprops/action-gh-release@v1
+      with:
+        files: build/apk/*.apk
+        tag_name: apk-${{ github.run_number }}
+        name: "Velqi APK Build #${{ github.run_number }}"
+        body: |
+          APK compilado automáticamente con GitHub Actions
+          
+          📱 **Instalación:**
+          1. Descarga el APK
+          2. Activa "Orígenes desconocidos" en Android
+          3. Instala
+          
+          🔧 **Compilado:** ${{ github.run_id }}
+          📅 **Fecha:** ${{ github.event.head_commit.timestamp }}
+        draft: false
+        prerelease: false

@@ -1,0 +1,52 @@
+Hola Diego,
+
+ERROR: "Directory not empty, errno = 39"
+
+SOLUCIÓN COMPLETA:
+
+1. CERRAR TODO:
+   - Cierra BlueStacks completamente
+   - Cierra todas las terminales
+
+2. EJECUTAR EN CMD (ADMIN):
+   cd "C:\Users\Admin\Desktop\VelqiMobile"
+   
+   # Limpiar todo
+   flet clean
+   
+   # Forzar eliminación
+   adb shell rm -rf /data/user/0/com.flet.velqimobile/
+   adb shell rm -rf /data/user/0/com.velqi.mobile/
+   
+   # Reiniciar ADB
+   adb kill-server
+   adb start-server
+
+3. INICIAR BLUESTACKS NUEVO:
+   - Abre BlueStacks FRESCO
+   - Espera a que cargue completamente
+
+4. COMPILAR CORRECTAMENTE:
+   flet build apk --package "com.velqi.app" --name "Velqi"
+
+5. SI PERSISTE, USAR:
+   flet build apk --no-install
+   
+   Luego instalar MANUALMENTE el APK de:
+   build/apk/Velqi-1.0.0-arm64-v8a-release.apk
+
+6. ARCHIVOS NECESARIOS:
+   - flet.json (ya existe)
+   - main.py (ya existe)
+   - pyproject.toml (ya existe)
+
+7. COMANDO FINAL TODO EN UNO:
+   cd "C:\Users\Admin\Desktop\VelqiMobile" && flet clean && timeout 5 && adb shell "rm -rf /data/user/0/com.flet.*" && flet build apk
+
+EL ERROR ES: Flet no puede borrar archivos viejos.
+La solución es FORZAR la eliminación antes de compilar.
+
+Si sigue fallando, cambia el package name en flet.json a:
+"package": "com.velqi.app.v2"
+
+Luego repite desde paso 1.

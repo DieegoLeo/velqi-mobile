@@ -1,0 +1,294 @@
+Date/Time:       2026-05-23 19:41:02 
+Command line:    C:\Users\Admin\AppData\Local\hermes\hermes-agent\venv\Lib\site-packages\briefcase\__main__.py dev
+
+OS Release:      Windows 10
+OS Version:      10.0.26200
+Architecture:    AMD64
+Platform:        Windows-10-10.0.26200-SP0
+
+Python exe:      C:\Users\Admin\AppData\Local\hermes\hermes-agent\venv\Scripts\python.exe
+Python version:  3.11.15 (main, Apr 14 2026, 14:31:26) [MSC v.1944 64 bit (AMD64)]
+Virtual env:     True
+Conda env:       False
+
+Briefcase:       0.4.2
+Target platform: windows
+Target format:   app
+
+Environment Variables:
+	ALLUSERSPROFILE=C:\ProgramData
+	ANTIGRAVITY_CLI_ALIAS=agy-ide
+	APPDATA=C:\Users\Admin\AppData\Roaming
+	CHROME_CRASHPAD_PIPE_NAME=\\.\pipe\crashpad_9116_TFVFOWJMKIFBJSPB
+	COLORTERM=truecolor
+	COMMONPROGRAMFILES=C:\Program Files\Common Files
+	COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files
+	COMMONPROGRAMW6432=C:\Program Files\Common Files
+	COMPUTERNAME=LEO
+	COMSPEC=C:\Windows\system32\cmd.exe
+	DOKANLIBRARY2=C:\Program Files\Dokan\Dokan Library-2.3.1\
+	DOKANLIBRARY2_LIBRARYPATH_X64=C:\Program Files\Dokan\Dokan Library-2.3.1\lib\
+	DOKANLIBRARY2_LIBRARYPATH_X86=C:\Program Files\Dokan\Dokan Library-2.3.1\x86\lib\
+	DRIVERDATA=C:\Windows\System32\Drivers\DriverData
+	EFC_4184_1262719628=1
+	EFC_4184_2283032206=1
+	EFC_4184_2775293581=1
+	EFC_4184_3789132940=1
+	GIT_ASKPASS=********************
+	HERMES_GIT_BASH_PATH=C:\Program Files\Git\bin\bash.exe
+	HERMES_HOME=C:\Users\Admin\AppData\Local\hermes
+	HOMEDRIVE=C:
+	HOMEPATH=\Users\Admin
+	JAVA_HOME=C:\Program Files\Microsoft\jdk-17.0.19.10-hotspot\
+	LANG=en_US.UTF-8
+	LOCALAPPDATA=C:\Users\Admin\AppData\Local
+	LOGONSERVER=\\LEO
+	NUMBER_OF_PROCESSORS=8
+	OLLAMA_HOST=0.0.0.0
+	OS=Windows_NT
+	PATH=C:\Program Files\Microsoft\jdk-17.0.19.10-hotspot\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\flutter\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\Admin\AppData\Local\hermes\hermes-agent\venv\Scripts;C:\Program Files\Microsoft\jdk-17.0.19.10-hotspot\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\flutter\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Microsoft\jdk-17.0.19.10-hotspot\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\flutter\bin;C:\Program Fil;C:\Users\Admin\AppData\Local\Programs\Ollama;C:\Users\Admin\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Admin\AppData\Local\Programs\Antigravity IDE\bin
+	PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL
+	POWERSHELL_TELEMETRY_OPTOUT=1
+	PROCESSOR_ARCHITECTURE=AMD64
+	PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 142 Stepping 12, GenuineIntel
+	PROCESSOR_LEVEL=6
+	PROCESSOR_REVISION=8e0c
+	PROGRAMDATA=C:\ProgramData
+	PROGRAMFILES=C:\Program Files
+	PROGRAMFILES(X86)=C:\Program Files (x86)
+	PROGRAMW6432=C:\Program Files
+	PSMODULEPATH=C:\Users\Admin\Documents\WindowsPowerShell\Modules;C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+	PUBLIC=C:\Users\Public
+	PYTHONHOME=C:\Users\Admin\AppData\Roaming\uv\python\cpython-3.11-windows-x86_64-none
+	SESSIONNAME=Console
+	SYSTEMDRIVE=C:
+	SYSTEMROOT=C:\Windows
+	TEMP=C:\Users\Admin\AppData\Local\Temp
+	TERM_PROGRAM=vscode
+	TERM_PROGRAM_VERSION=1.107.0
+	TMP=C:\Users\Admin\AppData\Local\Temp
+	USERDOMAIN=LEO
+	USERDOMAIN_ROAMINGPROFILE=LEO
+	USERNAME=Admin
+	USERPROFILE=C:\Users\Admin
+	UV_INTERNAL__PYTHONHOME=C:\Users\Admin\AppData\Roaming\uv\python\cpython-3.11-windows-x86_64-none
+	VSCODE_GIT_ASKPASS_EXTRA_ARGS=********************
+	VSCODE_GIT_ASKPASS_MAIN=********************
+	VSCODE_GIT_ASKPASS_NODE=********************
+	VSCODE_GIT_IPC_HANDLE=\\.\pipe\vscode-git-aa798c71e1-sock
+	VSCODE_INJECTION=1
+	VSCODE_PYTHON_AUTOACTIVATE_GUARD=1
+	WINDIR=C:\Windows
+	ZES_ENABLE_SYSMAN=1
+
+pyproject.toml:
+[tool.briefcase]
+project_name = "Velqi Mobile"
+bundle = "org.velqi"
+version = "1.0.0"
+url = "https://github.com/velqi/mobile"
+license = "BSD"
+
+[tool.briefcase.app.velqimobile]
+formal_name = "Velqi Mobile"
+description = "A music search and player application"
+sources = ["src/velqimobile"]
+requires = [
+    "toga",
+    "yt-dlp",
+]
+
+[tool.briefcase.app.velqimobile.android]
+requires = [
+    "yt-dlp",
+    "rubicon-java",
+]
+
+[tool.briefcase.app.velqimobile.windows]
+requires = [
+    "yt-dlp",
+    "pygame",
+]
+
+[tool.briefcase.app.velqimobile.linux]
+requires = [
+    "yt-dlp",
+    "pygame",
+]
+
+[tool.briefcase.app.velqimobile.macos]
+requires = [
+    "yt-dlp",
+    "pygame",
+]
+
+Briefcase Log:
+[19:41:01]                                                                                                                                                            config.py:1110
+           *******************************************************************************                                                                            config.py:1110
+           ** WARNING: 'velqimobile' uses pre-PEP 621 `license` format                  **                                                                            config.py:1110
+           *******************************************************************************                                                                            config.py:1110
+                                                                                                                                                                      config.py:1110
+               Briefcase now uses PEP 639 format for license definitions.                                                                                             config.py:1110
+                                                                                                                                                                      config.py:1110
+               PEP 639 requires the definition of both `license` and `license-files`,                                                                                 config.py:1110
+               and `license` must be a valid SPDX expression. The current value for                                                                                   config.py:1110
+               `license` seems to define a SPDX license of 'BSD-3-Clause'.                                                                                            config.py:1110
+                                                                                                                                                                      config.py:1110
+               Your project will not have a value for `license-files`. This will                                                                                      config.py:1110
+               cause problems packaging for some platforms.                                                                                                           config.py:1110
+                                                                                                                                                                      config.py:1110
+               Update your configuration to put the full license text in a file and use                                                                               config.py:1110
+               PEP 639 format for the license definition:                                                                                                             config.py:1110
+                                                                                                                                                                      config.py:1110
+                   license = "BSD-3-Clause"                                                                                                                           config.py:1110
+                   license-files = ["LICENSE"]                                                                                                                        config.py:1110
+                                                                                                                                                                      config.py:1110
+               You should not release your project without resolving this warning.                                                                                    config.py:1110
+                                                                                                                                                                      config.py:1110
+           *******************************************************************************                                                                            config.py:1110
+                                                                                                                                                                          dev.py:328
+           [velqimobile] Activating dev environment...                                                                                                                    dev.py:328
+                                                                                                                                                                          dev.py:356
+           [velqimobile] Starting in dev mode...                                                                                                                          dev.py:356
+                                                                                                                                                                   subprocess.py:844
+           >>> Running Command:                                                                                                                                    subprocess.py:844
+           >>>     'C:\Users\Admin\Desktop\VelqiMobile\.briefcase\velqimobile\dev.cp311-win_amd64\Scripts\python.exe' -c 'import runpy,                            subprocess.py:844
+           sys;sys.path.pop(0);sys.argv.extend([]);runpy.run_module("velqimobile", run_name="__main__", alter_sys=True)'                                                            
+           >>> Working Directory:                                                                                                                                  subprocess.py:844
+           >>>     C:\Users\Admin                                                                                                                                  subprocess.py:844
+           >>> Environment Overrides:                                                                                                                              subprocess.py:844
+           >>>     PYTHONPATH=C:\Users\Admin\Desktop\VelqiMobile\src                                                                                               subprocess.py:844
+           >>>     PYTHONMALLOC=default                                                                                                                            subprocess.py:844
+           >>>     PYTHONUNBUFFERED=1                                                                                                                              subprocess.py:844
+           >>>     PYTHONDEVMODE=1                                                                                                                                 subprocess.py:844
+           >>>     PYTHONUTF8=1                                                                                                                                    subprocess.py:844
+           >>>     PATH=C:\Users\Admin\Desktop\VelqiMobile\.briefcase\velqimobile\dev.cp311-win_amd64\Scripts;C:\Program                                           subprocess.py:844
+           Files\Microsoft\jdk-17.0.19.10-hotspot\bin;C:\Program Files\Common                                                                                                       
+           Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\Open                  
+           SSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client                                         
+           SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\flutter\bin;C:\Program                                     
+           Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\Admin\AppData\Local\hermes\hermes-agent\venv\Scripts;C:\Program                                                          
+           Files\Microsoft\jdk-17.0.19.10-hotspot\bin;C:\Program Files\Common                                                                                                       
+           Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\Open                  
+           SSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client                                         
+           SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\flutter\bin;C:\Program                                     
+           Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Microsoft\jdk-17.0.19.10-hotspot\bin;C:\Program Files\Common                                                     
+           Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\Open                  
+           SSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client                                         
+           SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\flutter\bin;C:\Program                                     
+           Fil;C:\Users\Admin\AppData\Local\Programs\Ollama;C:\Users\Admin\AppData\Local\Programs\Microsoft VS                                                                      
+           Code\bin;C:\Users\Admin\AppData\Local\Programs\Antigravity IDE\bin                                                                                                       
+           >>>     VIRTUAL_ENV=C:\Users\Admin\Desktop\VelqiMobile\.briefcase\velqimobile\dev.cp311-win_amd64                                                       subprocess.py:844
+           ===========================================================================                                                                                    run.py:175
+           Traceback (most recent call last):                                                                                                                      subprocess.py:196
+             File "<string>", line 1, in <module>                                                                                                                  subprocess.py:196
+             File "<frozen runpy>", line 226, in run_module                                                                                                        subprocess.py:196
+             File "<frozen runpy>", line 98, in _run_module_code                                                                                                   subprocess.py:196
+             File "<frozen runpy>", line 88, in _run_code                                                                                                          subprocess.py:196
+             File "C:\Users\Admin\Desktop\VelqiMobile\src\velqimobile\__main__.py", line 3, in <module>                                                            subprocess.py:196
+               main().main_loop()                                                                                                                                  subprocess.py:196
+               ^^^^^^                                                                                                                                              subprocess.py:196
+             File "C:\Users\Admin\Desktop\VelqiMobile\src\velqimobile\app.py", line 234, in main                                                                   subprocess.py:196
+               return VelqiMobile(                                                                                                                                 subprocess.py:196
+                      ^^^^^^^^^^^^                                                                                                                                 subprocess.py:196
+           TypeError: App.__init__() got an unexpected keyword argument 'id'                                                                                       subprocess.py:196
+                                                                                                                                                                      __main__.py:42
+           Problem running app velqimobile (return code 1).                                                                                                           __main__.py:43
+           Saving log... started                                                                                                                                      console.py:543
+
+Main thread traceback:
+╭─────────────────────────────────────────────────────────────────────── Traceback (most recent call last) ────────────────────────────────────────────────────────────────────────╮
+│ C:\Users\Admin\AppData\Local\hermes\hermes-agent\venv\Lib\site-packages\briefcase\__main__.py:27 in main                                                                         │
+│                                                                                                                                                                                  │
+│   24 │   │   │   Path.cwd() / "pyproject.toml",                                                                                                                                  │
+│   25 │   │   │   overrides=overrides,                                                                                                                                            │
+│   26 │   │   )                                                                                                                                                                   │
+│ ❱ 27 │   │   command(**options)                                                                                                                                                  │
+│   28 │   except HelpText as e:                                                                                                                                                   │
+│   29 │   │   console.info()                                                                                                                                                      │
+│   30 │   │   console.info(str(e))                                                                                                                                                │
+│                                                                                                                                                                                  │
+│ ╭───────────────────────────────────────────────────────────────── locals ──────────────────────────────────────────────────────────────────╮                                    │
+│ │       command = <briefcase.platforms.windows.app.WindowsAppDevCommand object at 0x00000000046FB6D0>                                       │                                    │
+│ │       console = <briefcase.console.Console object at 0x0000000000F48D50>                                                                  │                                    │
+│ │             e = BriefcaseCommandError('Problem running app velqimobile (return code 1).')                                                 │                                    │
+│ │ extra_cmdline = []                                                                                                                        │                                    │
+│ │       options = {'appname': None, 'update_requirements': False, 'isolated': True, 'run_app': True, 'test_mode': False, 'passthrough': []} │                                    │
+│ │     overrides = {}                                                                                                                        │                                    │
+│ │        result = 200                                                                                                                       │                                    │
+│ ╰───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯                                    │
+│                                                                                                                                                                                  │
+│ C:\Users\Admin\AppData\Local\hermes\hermes-agent\venv\Lib\site-packages\briefcase\commands\dev.py:357 in __call__                                                                │
+│                                                                                                                                                                                  │
+│   354 │   │   │   │   │   )                                                                                                                                                      │
+│   355 │   │   │   │   else:                                                                                                                                                      │
+│   356 │   │   │   │   │   self.console.info("Starting in dev mode...", prefix=app.app_name)                                                                                      │
+│ ❱ 357 │   │   │   │   return self.run_dev_app(                                                                                                                                   │
+│   358 │   │   │   │   │   app,                                                                                                                                                   │
+│   359 │   │   │   │   │   env=self.get_environment(app),                                                                                                                         │
+│   360 │   │   │   │   │   venv=venv,                                                                                                                                             │
+│                                                                                                                                                                                  │
+│ ╭────────────────────────────────────────────────── locals ───────────────────────────────────────────────────╮                                                                  │
+│ │                 app = <org.velqi.velqimobile v1.0.0 FinalizedAppConfig>                                     │                                                                  │
+│ │             appname = None                                                                                  │                                                                  │
+│ │           finalized = {'velqimobile': <org.velqi.velqimobile v1.0.0 FinalizedAppConfig>}                    │                                                                  │
+│ │            isolated = True                                                                                  │                                                                  │
+│ │             options = {}                                                                                    │                                                                  │
+│ │         passthrough = []                                                                                    │                                                                  │
+│ │             run_app = True                                                                                  │                                                                  │
+│ │                self = <briefcase.platforms.windows.app.WindowsAppDevCommand object at 0x00000000046FB6D0>   │                                                                  │
+│ │           test_mode = False                                                                                 │                                                                  │
+│ │ update_requirements = False                                                                                 │                                                                  │
+│ │                venv = <briefcase.integrations.virtual_environment.VenvContext object at 0x0000000004DF3150> │                                                                  │
+│ ╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────╯                                                                  │
+│                                                                                                                                                                                  │
+│ C:\Users\Admin\AppData\Local\hermes\hermes-agent\venv\Lib\site-packages\briefcase\commands\dev.py:205 in run_dev_app                                                             │
+│                                                                                                                                                                                  │
+│   202 │   │   │   )                                                                                                                                                              │
+│   203 │   │   │                                                                                                                                                                  │
+│   204 │   │   │   # Start streaming logs for the app.                                                                                                                            │
+│ ❱ 205 │   │   │   self._stream_app_logs(                                                                                                                                         │
+│   206 │   │   │   │   app,                                                                                                                                                       │
+│   207 │   │   │   │   popen=app_popen,                                                                                                                                           │
+│   208 │   │   │   │   clean_output=False,                                                                                                                                        │
+│                                                                                                                                                                                  │
+│ ╭───────────────────────────────────────────────────────────────────────────────── locals ─────────────────────────────────────────────────────────────────────────────────╮     │
+│ │         app = <org.velqi.velqimobile v1.0.0 FinalizedAppConfig>                                                                                                          │     │
+│ │   app_popen = <Popen: returncode: 1 args: ['C:\\Users\\Admin\\Desktop\\VelqiMobile\\.brief...>                                                                           │     │
+│ │     cmdline = [                                                                                                                                                          │     │
+│ │               │   'C:\\Users\\Admin\\AppData\\Local\\hermes\\hermes-agent\\venv\\Scripts\\python.exe',                                                                   │     │
+│ │               │   '-c',                                                                                                                                                  │     │
+│ │               │   'import runpy, sys;sys.path.pop(0);sys.argv.extend([]);runpy.run_module("velqimob'+42                                                                  │     │
+│ │               ]                                                                                                                                                          │     │
+│ │         env = {'PYTHONPATH': 'C:\\Users\\Admin\\Desktop\\VelqiMobile\\src', 'PYTHONMALLOC': 'default', 'PYTHONUNBUFFERED': '1', 'PYTHONDEVMODE': '1', 'PYTHONUTF8': '1'} │     │
+│ │     env_key = 'PYTHONUTF8'                                                                                                                                               │     │
+│ │   env_value = '1'                                                                                                                                                        │     │
+│ │ main_module = 'velqimobile'                                                                                                                                              │     │
+│ │     options = {}                                                                                                                                                         │     │
+│ │ passthrough = []                                                                                                                                                         │     │
+│ │        self = <briefcase.platforms.windows.app.WindowsAppDevCommand object at 0x00000000046FB6D0>                                                                        │     │
+│ │        venv = <briefcase.integrations.virtual_environment.VenvContext object at 0x0000000004DF3150>                                                                      │     │
+│ ╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯     │
+│                                                                                                                                                                                  │
+│ C:\Users\Admin\AppData\Local\hermes\hermes-agent\venv\Lib\site-packages\briefcase\commands\run.py:212 in _stream_app_logs                                                        │
+│                                                                                                                                                                                  │
+│   209 │   │   │   │   # If we're monitoring an actual app (not just a log stream),                                                                                               │
+│   210 │   │   │   │   # and the app didn't exit cleanly, surface the error to the user.                                                                                          │
+│   211 │   │   │   │   if (status_code := popen.poll()) != 0:                                                                                                                     │
+│ ❱ 212 │   │   │   │   │   raise BriefcaseCommandError(                                                                                                                           │
+│   213 │   │   │   │   │   │   f"Problem running app {app.app_name} "                                                                                                             │
+│   214 │   │   │   │   │   │   f"(return code {status_code})."                                                                                                                    │
+│   215 │   │   │   │   │   )                                                                                                                                                      │
+│                                                                                                                                                                                  │
+│ ╭────────────────────────────────────────────── locals ──────────────────────────────────────────────╮                                                                           │
+│ │          app = <org.velqi.velqimobile v1.0.0 FinalizedAppConfig>                                   │                                                                           │
+│ │ clean_filter = None                                                                                │                                                                           │
+│ │ clean_output = False                                                                               │                                                                           │
+│ │   log_filter = <briefcase.commands.run.LogFilter object at 0x0000000004E78E90>                     │                                                                           │
+│ │   log_stream = False                                                                               │                                                                           │
+│ │        popen = <Popen: returncode: 1 args: ['C:\\Users\\Admin\\Desktop\\VelqiMobile\\.brief...>    │                                                                           │
+│ │         self = <briefcase.platforms.windows.app.WindowsAppDevCommand object at 0x00000000046FB6D0> │                                                                           │
+│ │  status_code = 1                                                                                   │                                                                           │
+│ ╰────────────────────────────────────────────────────────────────────────────────────────────────────╯                                                                           │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+BriefcaseCommandError: Problem running app velqimobile (return code 1).

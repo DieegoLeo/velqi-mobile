@@ -1,0 +1,37 @@
+[project]
+name = "velqimobile"
+version = "1.0.0"
+description = "Velqi Mobile - Music search and player"
+requires-python = ">=3.8"
+dependencies = [
+    "flet>=0.25.0",
+    "yt-dlp>=2024.11.11",
+    "pydub>=0.25.1",
+    "requests>=2.31.0",
+]
+
+[project.optional-dependencies]
+desktop = [
+    "pygame>=2.5.2",
+]
+
+[tool.flet]
+project = "velqimobile"
+description = "Velqi Mobile - Music search and player"
+product = "Velqi Mobile"
+
+[tool.flet.android]
+package = "com.velqi.app.v3"
+version = "1.0.0"
+version_code = 1
+permissions = [
+    "android.permission.INTERNET",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.MODIFY_AUDIO_SETTINGS",
+]
+
+[tool.flet.android.build]
+min_sdk = 21
+target_sdk = 34
+compile_sdk = 34

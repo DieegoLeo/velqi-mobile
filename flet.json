@@ -1,0 +1,11 @@
+{
+  "name": "Velqi",
+  "description": "Velqi Mobile Music",
+  "version": "1.0.0",
+  "package": "com.velqi.app.v2",
+  "permissions": [
+    "android.permission.INTERNET",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.READ_EXTERNAL_STORAGE"
+  ]
+}
