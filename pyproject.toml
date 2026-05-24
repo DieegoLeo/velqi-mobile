@@ -1,18 +1,17 @@
 [project]
-name = "velqilite"
+name = "velqimobile"
 version = "1.0.0"
-description = "Velqi Lite - Music downloader"
+description = "Velqi Mobile - Music search and player"
 requires-python = ">=3.8"
 dependencies = [
-    "flet==0.85.1",
-    "yt-dlp==2024.11.11",
-    "requests==2.31.0",
+    "flet>=0.25.0",
+    "yt-dlp>=2024.11.11",
 ]
 
 [tool.flet]
-project = "velqilite"
-description = "Velqi Lite Music Downloader"
-product = "Velqi Lite"
+project = "velqimobile"
+description = "Velqi Mobile - Music search and player"
+product = "Velqi Mobile"
 
 [tool.flet.android]
 split-per-abi = true
@@ -20,3 +19,4 @@ cleanup-app = true
 cleanup-packages = true
 compile-app = true
 compile-packages = true
+exclude = ["*.pyc", "__pycache__", "*.log", "tests/*", "venv/*"]
