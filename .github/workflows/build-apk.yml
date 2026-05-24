@@ -68,12 +68,6 @@ jobs:
           --compile-app \
           --compile-packages \
           --clear-cache \
-          --no-ffmpeg \
-          --no-pygame \
-          --no-imageio \
-          --optimize-size \
-          --strip-debug \
-          --remove-unused \
           --yes \
           --verbose
         
